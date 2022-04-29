@@ -2,6 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
+    z-index: 20;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    height: 35vh;
+    background-color: rgb(235, 233, 233);
 }
 
 div li {
@@ -20,7 +27,8 @@ img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    top: -50%;
+    margin-top: -10%;
+    z-index: 100;
 }
 .acerca-de {
     display: flex;

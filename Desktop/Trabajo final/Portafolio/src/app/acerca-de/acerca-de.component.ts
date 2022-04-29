@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./acerca-de.component.css']
 })
 export class AcercaDeComponent implements OnInit {
-
-  constructor() { }
+  Foto:any = "../assets/imagenes/Foto.jpg"
+    
+  constructor() {
+   }
 
   ngOnInit(): void {
   }
