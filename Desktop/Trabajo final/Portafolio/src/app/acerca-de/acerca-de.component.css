@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin:0;
-    z-index: 20;
+    margin: 5px;
+    z-index: 50;
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -11,7 +11,7 @@ body {
     background-color: rgb(235, 233, 233);
 }
 
-div li {
+.container {
 
     display: table-cell;
     justify-content: flex-start;
@@ -27,13 +27,21 @@ img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    margin-top: -10%;
+    margin-top: -85px;
     z-index: 100;
 }
 .acerca-de {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   contain:content;
+    contain:content;
+    margin-left: 10%;
+    z-index: 20;
 
+}
+
+div li{
+    float: left;
+    list-style: none;  
+    z-index: 20;
 }
